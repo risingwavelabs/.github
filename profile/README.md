@@ -40,4 +40,4 @@ New to RisingWave? [Try the quickstart](https://docs.risingwave.com/get-started/
 
 Our Slack community is where users discuss real-world deployments, ask technical questions, and get direct access to the RisingWave engineering team.
 
-[Join our Slack](https://go.risingwave.com/slack)
+[![Join our Slack](https://img.shields.io/badge/Slack-Join%20Us-4A154B?logo=slack&logoColor=white)](https://go.risingwave.com/slack)
