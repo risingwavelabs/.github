@@ -29,10 +29,15 @@ No Kafka. No Flink. Just SQL.
 | [risingwave](https://github.com/risingwavelabs/risingwave) | The open-source streaming database |
 | [risingwave-operator](https://github.com/risingwavelabs/risingwave-operator) | Kubernetes Operator for RisingWave |
 | [helm-charts](https://github.com/risingwavelabs/helm-charts) | Helm Charts for Kubernetes deployment |
-| [Documentation](https://docs.risingwave.com) | Official documentation |
+
+Full documentation is available at [docs.risingwave.com](https://docs.risingwave.com).
+
+## Get Started
+
+New to RisingWave? [Try the quickstart](https://docs.risingwave.com/get-started/quickstart) and run your first streaming query in minutes.
 
 ## Join the Community
 
-Have questions? Want to share how you use RisingWave? Come talk to us.
+Our Slack community is where users discuss real-world deployments, ask technical questions, and get direct access to the RisingWave engineering team.
 
 [Join our Slack](https://go.risingwave.com/slack)
