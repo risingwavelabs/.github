@@ -5,7 +5,7 @@
 
 ## Live Data. Smarter Agents.
 
-We are a Live Data Company. We build RisingWave, a PostgreSQL-compatible streaming database that helps you ingest, transform, and serve live data to your applications and AI agents.
+We build [RisingWave](https://github.com/risingwavelabs/risingwave), a PostgreSQL-compatible event streaming platform that helps you ingest, transform, and serve live data to your applications and AI agents.
 
 ## Built for the Age of Agents
 
@@ -24,7 +24,7 @@ No Kafka. No Flink. Just SQL.
 
 ## RisingWave MCP
 
-The [RisingWave MCP Server](https://github.com/risingwavelabs/risingwave-mcp) brings your streaming database directly into AI assistants like Claude and GitHub Copilot. With 100+ tools, your agents can query tables, inspect materialized views, monitor streaming jobs, and manage the full lifecycle of your data pipelines — all through natural language.
+The [RisingWave MCP Server](https://github.com/risingwavelabs/risingwave-mcp) brings your event streams directly into AI assistants like Claude and GitHub Copilot. With 100+ tools, your agents can query tables, inspect materialized views, monitor streaming jobs, and manage the full lifecycle of your data pipelines — all through natural language.
 
 ```json
 {
@@ -48,18 +48,6 @@ npx skills add risingwavelabs/agent-skills
 
 Compatible with Claude Code, GitHub Copilot, Cursor, Windsurf, Gemini CLI, and 18+ other AI agents.
 
-## What We Build
-
-| Repository | Description |
-|---|---|
-| [risingwave](https://github.com/risingwavelabs/risingwave) | Event streaming platform for agentic AI |
-| [risingwave-mcp](https://github.com/risingwavelabs/risingwave-mcp) | MCP Server — connect AI agents to live data |
-| [agent-skills](https://github.com/risingwavelabs/agent-skills) | Agent Skills for AI coding agents |
-| [risingwave-operator](https://github.com/risingwavelabs/risingwave-operator) | Kubernetes Operator for RisingWave |
-| [helm-charts](https://github.com/risingwavelabs/helm-charts) | Helm Charts for Kubernetes deployment |
-
-Full documentation is available at [docs.risingwave.com](https://docs.risingwave.com).
-
 ## Deploy RisingWave
 
 | Mode | How |
@@ -72,6 +60,8 @@ Full documentation is available at [docs.risingwave.com](https://docs.risingwave
 ## Get Started
 
 New to RisingWave? [Try the quickstart](https://docs.risingwave.com/get-started/quickstart) and run your first streaming query in minutes.
+
+Full documentation is available at [docs.risingwave.com](https://docs.risingwave.com).
 
 ## Join the Community
 
