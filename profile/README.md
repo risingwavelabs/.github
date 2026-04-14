@@ -5,7 +5,7 @@
 
 ## Live Data. Smarter Agents.
 
-We are a Live Data Company. We build RisingWave, a PostgreSQL-compatible streaming database that helps you ingest, transform, and serve live data to your applications and AI agents.
+We build [RisingWave](https://github.com/risingwavelabs/risingwave), a PostgreSQL-compatible event streaming platform that helps you ingest, transform, and serve live data to your applications and AI agents.
 
 ## Built for the Age of Agents
 
@@ -22,19 +22,46 @@ RisingWave keeps your data always fresh, always ready. The moment something happ
 
 No Kafka. No Flink. Just SQL.
 
-## What We Build
+## RisingWave MCP
 
-| Repository | Description |
+The [RisingWave MCP Server](https://github.com/risingwavelabs/risingwave-mcp) brings your event streams directly into AI assistants like Claude and GitHub Copilot. With 100+ tools, your agents can query tables, inspect materialized views, monitor streaming jobs, and manage the full lifecycle of your data pipelines — all through natural language.
+
+```json
+{
+  "mcpServers": {
+    "risingwave": {
+      "command": "python",
+      "args": ["src/main.py"],
+      "env": { "RW_CONNECTION_STRING": "postgresql://root@localhost:4566/dev" }
+    }
+  }
+}
+```
+
+## Agent Skills
+
+[Agent Skills](https://github.com/risingwavelabs/agent-skills) are ready-made skill packages that teach AI coding agents how to work with RisingWave. Install them with a single command and your agent instantly knows how to design schemas, write streaming SQL, configure CDC pipelines, and follow best practices.
+
+```bash
+npx skills add risingwavelabs/agent-skills
+```
+
+Compatible with Claude Code, GitHub Copilot, Cursor, Windsurf, Gemini CLI, and 18+ other AI agents.
+
+## Deploy RisingWave
+
+| Mode | How |
 |---|---|
-| [risingwave](https://github.com/risingwavelabs/risingwave) | The open-source streaming database |
-| [risingwave-operator](https://github.com/risingwavelabs/risingwave-operator) | Kubernetes Operator for RisingWave |
-| [helm-charts](https://github.com/risingwavelabs/helm-charts) | Helm Charts for Kubernetes deployment |
-
-Full documentation is available at [docs.risingwave.com](https://docs.risingwave.com).
+| **Standalone** | `curl -L https://risingwave.com/sh \| sh` |
+| **Cloud** | Fully managed on [RisingWave Cloud](https://cloud.risingwave.com) — free tier available |
+| **Docker** | `docker run -it --pull=always -p 4566:4566 risingwavelabs/risingwave:latest single_node` |
+| **Kubernetes** | [Helm Charts](https://github.com/risingwavelabs/helm-charts) or [Operator](https://github.com/risingwavelabs/risingwave-operator) |
 
 ## Get Started
 
 New to RisingWave? [Try the quickstart](https://docs.risingwave.com/get-started/quickstart) and run your first streaming query in minutes.
+
+Full documentation is available at [docs.risingwave.com](https://docs.risingwave.com).
 
 ## Join the Community
 
