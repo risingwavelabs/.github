@@ -55,8 +55,6 @@ Compatible with Claude Code, GitHub Copilot, Cursor, Windsurf, Gemini CLI, and 1
 | [risingwave](https://github.com/risingwavelabs/risingwave) | Event streaming platform for agentic AI |
 | [risingwave-mcp](https://github.com/risingwavelabs/risingwave-mcp) | MCP Server — connect AI agents to live data |
 | [agent-skills](https://github.com/risingwavelabs/agent-skills) | Agent Skills for AI coding agents |
-| [box0](https://github.com/risingwavelabs/box0) | Open-source platform for subagents and agent teams |
-| [wavelet](https://github.com/risingwavelabs/wavelet) | Reactive backend for agents and apps |
 | [risingwave-operator](https://github.com/risingwavelabs/risingwave-operator) | Kubernetes Operator for RisingWave |
 | [helm-charts](https://github.com/risingwavelabs/helm-charts) | Helm Charts for Kubernetes deployment |
 
