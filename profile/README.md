@@ -64,7 +64,7 @@ Full documentation is available at [docs.risingwave.com](https://docs.risingwave
 
 | Mode | How |
 |---|---|
-| **Playground** | `curl -L https://risingwave.com/sh \| sh` |
+| **Standalone** | `curl -L https://risingwave.com/sh \| sh` |
 | **Cloud** | Fully managed on [RisingWave Cloud](https://cloud.risingwave.com) — free tier available |
 | **Docker** | `docker run -it --pull=always -p 4566:4566 risingwavelabs/risingwave:latest single_node` |
 | **Kubernetes** | [Helm Charts](https://github.com/risingwavelabs/helm-charts) or [Operator](https://github.com/risingwavelabs/risingwave-operator) |
